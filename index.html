@@ -1,126 +1,675 @@
-<!doctype html>
-<html class="default no-js">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>minml</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-<header>
-	<div class="tsd-page-toolbar">
-		<div class="container">
-			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
-					<div class="field">
-						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
-						<input id="tsd-search-field" type="text" />
-					</div>
-					<ul class="results">
-						<li class="state loading">Preparing search index...</li>
-						<li class="state failure">The search index is not available</li>
-					</ul>
-					<a href="index.html" class="title">minml</a>
-				</div>
-				<div class="table-cell" id="tsd-widgets">
-					<div id="tsd-filter">
-						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
-						<div class="tsd-filter-group">
-							<div class="tsd-select" id="tsd-filter-visibility">
-								<span class="tsd-select-label">All</span>
-								<ul class="tsd-select-list">
-									<li data-value="public">Public</li>
-									<li data-value="protected">Public/Protected</li>
-									<li data-value="private" class="selected">All</li>
-								</ul>
-							</div>
-							<input type="checkbox" id="tsd-filter-inherited" checked />
-							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-externals" checked />
-							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
-						</div>
-					</div>
-					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="tsd-page-title">
-		<div class="container">
-			<ul class="tsd-breadcrumb">
-				<li>
-					<a href="globals.html">Globals</a>
-				</li>
-			</ul>
-			<h1> minml</h1>
-		</div>
-	</div>
-</header>
-<div class="container container-main">
-	<div class="row">
-		<div class="col-8 col-content">
-			<section class="tsd-panel-group tsd-index-group">
-				<h2>Index</h2>
-				<section class="tsd-panel tsd-index-panel">
-					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Classes</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-class"><a href="classes/minboxcomponent.html" class="tsd-kind-icon">Min<wbr>Box<wbr>Component</a></li>
-								<li class="tsd-kind-class"><a href="classes/minformcomponent.html" class="tsd-kind-icon">Min<wbr>Form<wbr>Component</a></li>
-								<li class="tsd-kind-class"><a href="classes/minnavbarcomponent.html" class="tsd-kind-icon">Min<wbr>Nav<wbr>Bar<wbr>Component</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section tsd-is-not-exported">
-						</section>
-						<section class="tsd-index-section ">
-						</section>
-					</div>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">				
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-			</section>
-		</div>
-		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
-			<nav class="tsd-navigation primary">
-				<ul>
-					<li class="globals current ">
-						<a href="globals.html"><em>Globals</em></a>
-					</li>
-				</ul>
-			</nav>
-			<nav class="tsd-navigation secondary menu-sticky">
-				<ul class="before-current">
-					<li class=" tsd-kind-class">
-						<a href="classes/minboxcomponent.html" class="tsd-kind-icon">Min<wbr>Box<wbr>Component</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/minformcomponent.html" class="tsd-kind-icon">Min<wbr>Form<wbr>Component</a>
-					</li>
-					<li class=" tsd-kind-class">
-						<a href="classes/minnavbarcomponent.html" class="tsd-kind-icon">Min<wbr>Nav<wbr>Bar<wbr>Component</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</div>
-<footer class="with-border-bottom">
-	<div class="container">
-		
-	</div>
-</footer>
-<div class="container tsd-generator">
-	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
-</div>
-<div class="overlay"></div>
-<script src="assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
-</body>
-</html>
+<!DOCTYPE html><html><head>
+      <title>readme</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\dmorton\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.4.3\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h2 class="mume-header" id="stencil-in-the-context-of-angular-vs-react">Stencil in the Context of Angular vs. React</h2>
+
+<hr>
+<h3 class="mume-header" id="angular-or-react-who-cares">Angular or React, who cares?</h3>
+
+<h4 class="mume-header" id="background">Background</h4>
+
+<p>At this point in time, it seems that in the frontend engineering space there are two choices that development teams consider when taking on a project, React or Angular. There are other frameworks thrown into the mix: Vue, AngularJS, Preact and Surplus just to name a few. However, Angular and React largely dominate the space. With their co-existence also brings <strong>unwavering opinions</strong> about which one is better. An important question must be posed, <em>what actually makes one better than the other</em>?</p>
+<h4 class="mume-header" id="a-developers-preference">A Developer&apos;s Preference</h4>
+
+<p>In my opinion, the answer to our posed question is simply that a developer prefers one over the other. Frankly, both React and Angular give you the ability to do the same thing, create <em>progressive web applications</em>. Angular is written in typescript and comes with more things out of the box, like a or an http request client. While React uses JSX, is only the component layer of web applications, and needs packages added to it in order to create complete PWA&apos;s. Mainly I suppose the differentiator is that Angular persuades you to use some of it&apos;s out of the box features, like it&apos;s router (even though you can still change it), while React doesn&apos;t care and forces you to make those design decisions yourself.</p>
+<h4 class="mume-header" id="scoping-the-preference-discussion-down">Scoping the Preference Discussion Down</h4>
+
+<p>If there is anything I have gathered, there is one main point that developers like to harp on. Some like writing components with Angular&apos;s code and template model, while others like writing components with JSX where the component logic as well as the html markdown is all encapsulated in one file. Admittedly, I am an Angular developer. That being said, I see the reason why people like writing components in JSX. Having everything that a component needs sitting in one file increases readability, and promotes the idea of web components being reusable at the code level (meaning that you can take a singular JSX file anywhere in a react project and have a working web component). So let&apos;s ask a different question, <em>is there a way we can use Angular&apos;s routing, http provider, dependency injection and all the things developers love about angular, while writing our components in a React like fashion with JSX? More over, what if we could write JSX web components and reuse them anywhere, regardless of Framework?</em> <strong>Enter StencilJS</strong>.</p>
+<hr>
+<h3 class="mume-header" id="the-reason-why-everyone-is-here-stenciljs">The Reason why Everyone is here: StencilJS</h3>
+
+<h4 class="mume-header" id="what-is-stenciljs">What is StencilJS</h4>
+
+<p>Stencil takes all the good features from multiple frameworks, like Typescipt, JSX, Reactive data-binding etc and provides a library that allows a developer to write code that <strong>looks a lot like React</strong> which compiles down to standards-based web components. These web components, more specifically called custom elements, can be used across multiple frameworks. Moreover, they can be used <em>without a framework altogether</em> since they are compiled to a the ECMAScript standard, allowing them to be used just like any other html tag.</p>
+<h4 class="mume-header" id="why-is-this-post-not-focusing-on-writing-stencil-components-that-work-in-react">Why is this post not focusing on writing Stencil components that work in React?</h4>
+
+<p>I find this to be rather ironic. The framework with the worst support for using standards-based web components is React. This is for two reasons; React doesn&apos;t like passing non-primitive data in to props of custom elements, and React cannot listen for DOM events coming from custom elements because it has it&apos;s own synthetic event system. Unfortuneatly, this is a huge limiting factor for using Stencil with React, and simply makes it not a wise design decision as of today. See more on framework support here: <a href="https://custom-elements-everywhere.com">https://custom-elements-everywhere.com</a>.</p>
+<h4 class="mume-header" id="back-to-the-point-of-this-post">Back to the point of this post</h4>
+
+<p>We set up a scenario in the section <em>Scoping the Preference Discussion Down</em> where we, as a developer, want to use Angulars features while being able to write components using JSX and look like react. With StencilJS, we are able to do so. In this post we are going to go over how to create stencil components for a task-list application, show how to publish those components as a npm package, and finally demonstrate how to use those Stencil components in an Angular application.</p>
+<hr>
+<h3 class="mume-header" id="environment-setup-and-installing-stenciljs">Environment Setup and Installing StencilJS</h3>
+
+<h4 class="mume-header" id="text-editor">Text Editor</h4>
+
+<p>You probably can guess it. For this example I am using Visual Studio Code.</p>
+<h4 class="mume-header" id="operating-system">Operating System</h4>
+
+<p>Not that it matters a whole lot, but I am using a Windows computer to do this development. However, I am using an Ubuntu installation in Window&apos;s Subsystem for Linux, and only point this out because I think WSL is awesome and recommend the reader to look into it if developing on Windows.</p>
+<h4 class="mume-header" id="plugins-for-vs-code">Plugins for VS Code</h4>
+
+<p>It is worth installing the <strong>stencil-snippets</strong> (fdom.stencil-snippets) plugin. It will give you some boiler plate code for creating your stencil files. Stencil has nothing like the <em>Angular CLI</em> that generates files for you.</p>
+<h4 class="mume-header" id="installing-stencil">Installing Stencil</h4>
+
+<p>To globally install stencil, type the following in a terminal</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g @stencil/core@latest 
+</pre><h4 class="mume-header" id="generating-a-new-component-collection">Generating a new component collection</h4>
+
+<p>CD into the directory you want your stencil project to live. Once there, type the following command into a terminal window.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> init stencil
+</pre><p>You will be given some options for setting up the project. Select component from the list to create a new component collection.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">? Pick a starter &#x203A; - Use arrow-keys. Return to submit.
+
+   ionic-pwa     Everything you need to build fast, production ready PWAs
+   app           Minimal starter <span class="token keyword">for</span> building a Stencil app or website
+&#x276F;  component     Collection of web components that can be used anywhere
+</pre><p>Finally, specify a name for the project. In this case, I am using <em>my-bulletin-components</em>. Note that you should name your&apos;s something different, as NPM won&apos;t let you publish a package with the name I am using since I have already done so.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"> Pick a starter &#x203A; component
+? Project name &#x203A; task-list-stencil-demo
+</pre><p>At this point, Stencil will let you know that the project has been created. Go ahead and CD into the project.</p>
+<h4 class="mume-header" id="installing-project-dependencies">Installing project dependencies</h4>
+
+<p>CD into your project folder (where package.json lives) and run the following command in a terminal.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> <span class="token function">install</span>
+</pre><p>This will install all the neccissary project dependencies for your Stencil project to run.</p>
+<h4 class="mume-header" id="running-the-stencil-application">Running the stencil application</h4>
+
+<p>Finally, run the Stencil app with the following command in a terminal window.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> start
+</pre><p>This will open a chrome window and show you the initial state of the project.</p>
+<hr>
+<h3 class="mume-header" id="examining-what-we-are-given">Examining what we are given</h3>
+
+<p><img src="init.png" alt="alt text" title="Logo Title Text 1"></p>
+<h4 class="mume-header" id="component-file">Component File</h4>
+
+<p>Open the file <code>src/component/my-component/my-component.tsx</code></p>
+<pre data-role="codeBlock" data-info="tsx" class="language-tsx"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component<span class="token punctuation">,</span> Prop<span class="token punctuation">,</span> h <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@stencil/core&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> format <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;../../utils/utils&apos;</span><span class="token punctuation">;</span>
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token punctuation">:</span> <span class="token string">&apos;my-component&apos;</span><span class="token punctuation">,</span>
+  styleUrl<span class="token punctuation">:</span> <span class="token string">&apos;my-component.css&apos;</span><span class="token punctuation">,</span>
+  shadow<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">MyComponent</span> <span class="token punctuation">{</span>
+  @<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> first<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  @<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> middle<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+  @<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> last<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">private</span> <span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">format</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>first<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>middle<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>last<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>Hello<span class="token punctuation">,</span> World<span class="token operator">!</span> <span class="token constant">I</span>&apos;m <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</pre><p>As you can see, Stencil writes a whole lot like react, and even uses the same terminology (like props). However it uses typescript, and has a @Component() decorator like in angular.</p>
+<h4 class="mume-header" id="where-is-the-root-of-this-application">Where is the &apos;root&apos; of this application?</h4>
+
+<p>To change what we are seeing on the home page, inspect the <code>src/index.html</code> file. More specifically look in the body of the HTML file.</p>
+<pre data-role="codeBlock" data-info="html" class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-component</span> <span class="token attr-name">first</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Stencil<span class="token punctuation">&quot;</span></span> <span class="token attr-name">last</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&apos;</span>Don<span class="token punctuation">&apos;</span>t call me a framework<span class="token punctuation">&apos;</span> JS<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-component</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+</pre><p>When we create our new stencil components, we can drop them into index.html where the <code>my-component</code> tag already exists.</p>
+<hr>
+<h3 class="mume-header" id="creating-our-components">Creating our Components</h3>
+
+<h4 class="mume-header" id="clean-up">Clean-up</h4>
+
+<p>Let&apos;s first clean up the application and delete the <code>my-component</code> folder. Also remove the line in <code>index.html</code> that uses the<code>&lt;my-component&gt;&lt;/my-component&gt;</code> tag.</p>
+<h4 class="mume-header" id="creating-a-new-component">Creating a new Component</h4>
+
+<p>Under <code>./src/components</code> create a new folder called <strong>my-bulletin-add</strong>. In that folder, create a file called <strong>my-bulletin-add.tsx</strong> and another called <strong>my-bulletin-add.css</strong>. Open your .tsx file, and use that stencil-snippets extension to generate boilerplate code for a stencil component. To do this, begin typing <code>st-component</code> in your .tsx file. <em>Note: You have to add <code>h</code> to the include statements to get everything to compile.</em> Your starting component file should look like this.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component<span class="token punctuation">,</span> h <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@stencil/core&apos;</span><span class="token punctuation">;</span>
+
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tag<span class="token punctuation">:</span> <span class="token string">&apos;my-bulletin-add&apos;</span><span class="token punctuation">,</span>
+  styleUrl<span class="token punctuation">:</span> <span class="token string">&apos;my-bulletin-add.css&apos;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">MyBulletinAdd</span> <span class="token punctuation">{</span>
+
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>p<span class="token operator">&gt;</span>My name <span class="token keyword">is</span> Stencil<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</pre><h4 class="mume-header" id="my-bulletin-add-component">My-Bulletin-Add Component</h4>
+
+<p>We are going to create a component that has a text-box input field. This component is going to have one prop, <em>placeholderText</em>. <em>placeHolderText</em> will be a string and determine what is the placeholder for the text box when it is empty (example: enter your name). We will need an <em>event</em> for when the user enters a phrase into the text box, so we can emit the value. Lastly, we are going to need some <em>state</em> in the component to keep track of what has been entered into the input form.</p>
+<h5 class="mume-header" id="defining-the-props">Defining the props</h5>
+
+<p>Defining the properties of the component is very much like defining @Inputs() in Angular. The form is <code>@Prop() propname : sometype;</code>. Remember to import Prop form @stencil/core. Add the following code to your my-bulletin.tsx file above the render method.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript">  @<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> placeHolderText<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+</pre><h5 class="mume-header" id="defining-and-event">Defining and event</h5>
+
+<p>Much like in Angular, Stencil makes use of an event emitter that creates a custom DOM event that can be captured by javascript. To create a new Event, import EventEmitter and Event from @stencil/core and add the following line of code underneath your props.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript">  @<span class="token function">Event</span><span class="token punctuation">(</span><span class="token punctuation">)</span> phraseEntered<span class="token punctuation">:</span> EventEmitter<span class="token punctuation">;</span>
+</pre><p>Eventually we will use <code>phraseEntered.emit()</code> to trigger a DOM event.</p>
+<h5 class="mume-header" id="defining-state">Defining state</h5>
+
+<p>We need to create some component state to keep track of what is currently entered into the form. To do so, import State from @stencil/core and add the following code. Remember to give your state an initial value (an empty string).</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript">  @<span class="token function">State</span><span class="token punctuation">(</span><span class="token punctuation">)</span> formValue<span class="token punctuation">:</span> <span class="token builtin">string</span> <span class="token operator">=</span> <span class="token string">&apos;&apos;</span><span class="token punctuation">;</span>
+</pre><h5 class="mume-header" id="working-in-the-render-function">Working in the render function</h5>
+
+<p>Let now create markdown for the component. Add the following code to your component in the <code>render()</code> function.</p>
+<pre data-role="codeBlock" data-info="tsx" class="language-tsx"><span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">onSubmit</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>form<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>add-field<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>placeHolderText<span class="token punctuation">}</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span>
+           <span class="token attr-name">value</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>formValue<span class="token punctuation">}</span></span> <span class="token attr-name">onInput</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>add-button<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>submit<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Submit<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</pre><p>Note that <code>this.formValue</code> binds our input form to the state of this component, and <code>this.placeHolderText</code> assigns our prop to the placeholder of our entry form.</p>
+<p>Next lets add functions to deal with when the form input has changed (onInput) and when the form is submitted (onSubmit). Modify the code to look like the following.</p>
+<pre data-role="codeBlock" data-info="tsx" class="language-tsx">  <span class="token function-variable function">handleChange</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>formValue <span class="token operator">=</span> event<span class="token punctuation">.</span>target<span class="token punctuation">.</span>value<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function-variable function">formSubmitted</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    event<span class="token punctuation">.</span><span class="token function">preventDefault</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>phraseEntered<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>formValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">onSubmit</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">formSubmitted</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>form<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>add-field<span class="token punctuation">&quot;</span></span> <span class="token attr-name">placeholder</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>placeHolderText<span class="token punctuation">}</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span>
+           <span class="token attr-name">value</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>formValue<span class="token punctuation">}</span></span> <span class="token attr-name">onInput</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">handleChange</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>add-button<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>submit<span class="token punctuation">&quot;</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Submit<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</pre><p>In the <code>formSubmitted()</code> function we emit an event that contains the data from our form with our <code>phraseEntered</code> event emitter. This create a dom event that we will be able to listen for later on in Angular which will handle the data and update the component we will create next.</p>
+<h4 class="mume-header" id="my-bulletin-item-component">My-Bulletin-Item Component</h4>
+
+<p>This component will be a &apos;card&apos; component that shows data (a string). This component will be used by our Angular applicaiton to show all the bulletin values that were entered in the my-bulletin-add component.</p>
+<h5 class="mume-header" id="create-component">Create Component</h5>
+
+<p>Create a folder called <code>my-bulletin-item</code> under <code>./src/components</code>. In the folder create files called <code>my-bulletin-item.tsx</code> and <code>my-bulletin-item.css</code>. In your .tsx file, use the <code>st-component</code> snippet to generate boilerplate code for this component and remember to import h from @stencil/core.</p>
+<h5 class="mume-header" id="props">Props</h5>
+
+<p>This component will have one property called content. This represents the information we want to show in the component. Be sure to import Prop from @stencil/core Add the following to your .tsx file.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript">@<span class="token function">Prop</span><span class="token punctuation">(</span><span class="token punctuation">)</span> content<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">;</span>
+</pre><h5 class="mume-header" id="working-in-the-render-function-1">Working in the Render function</h5>
+
+<p>We want to show what has been passed in as content within a div. To do this, we create a div tag with a paragraph element as it&apos;s child and include our content prop as the inner-html contents. We also give the div a classname so we can apply some styling.</p>
+<pre data-role="codeBlock" data-info="tsx" class="language-tsx">  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>content-box<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>content<span class="token punctuation">}</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</pre><h5 class="mume-header" id="styling">Styling</h5>
+
+<p>For the sake of making things look nice, add the following styles to <code>my-bulletin-item.css</code></p>
+<pre data-role="codeBlock" data-info="css" class="language-css"><span class="token selector"><span class="token class">.content-box</span></span> <span class="token punctuation">{</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">20</span><span class="token unit">px</span> <span class="token number">10</span><span class="token unit">px</span><span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> lightgray<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><h3 class="mume-header" id="testing-the-components">Testing the Components</h3>
+
+<p>Add the following to the body of the <code>index.html</code> file.</p>
+<pre data-role="codeBlock" data-info="html" class="language-html">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-add</span> <span class="token attr-name">place-holder-text</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Test<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-add</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-item</span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>some content<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-item</span><span class="token punctuation">&gt;</span></span>
+</pre><p>Serve the app using the following bash command.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> start
+</pre><p>The application at this point should look like this.<br>
+<img src="step1.png" alt="alt text" title="Logo Title Text 1"></p>
+<hr>
+<h3 class="mume-header" id="taking-a-breather">Taking a Breather</h3>
+
+<p>At this point, we have created two stencil components that we want to use in an Angular application. The angular app, will recieve values submitted through the <code>my-bulletin-add component</code>, add them to an array of strings (which represents our application state), then renders each string out in a <code>my-bulletin-item component</code>. The components are now done, and we have to publish them to NPM so we can pull the components into an angular project.</p>
+<h3 class="mume-header" id="create-a-npm-profile">Create a NPM profile</h3>
+
+<p>If you do not have one already, go to <a href="https://www.npmjs.com/">https://www.npmjs.com/</a> and create a new profile. This will allow you to publish pacakges to NPM and pull them into later project.</p>
+<h3 class="mume-header" id="configure-npm-login-on-local-machine">Configure NPM Login on Local Machine</h3>
+
+<p>To login to NPM on your local machine, type the following in a terminal</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> login
+</pre><p>To verify that you have successfully logged in to your NPM account, type the following in a terminal</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> <span class="token function">whoami</span>
+</pre><h3 class="mume-header" id="configuring-the-project-for-deployment">Configuring the Project for deployment</h3>
+
+<p>Open <code>./stencil.config.ts</code> and ensure it matches the following. <strong>Your namespace should be different than mine or else you can not publish</strong> since NPM requires unique namespaces.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Config <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@stencil/core&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> config<span class="token punctuation">:</span> Config <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token keyword">namespace</span><span class="token punctuation">:</span> <span class="token string">&apos;my-bulletin-components&apos;</span><span class="token punctuation">,</span>
+  outputTargets<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">&apos;dist&apos;</span><span class="token punctuation">,</span>
+      esmLoaderPath<span class="token punctuation">:</span> <span class="token string">&apos;../loader&apos;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">&apos;docs-readme&apos;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">type</span><span class="token punctuation">:</span> <span class="token string">&apos;www&apos;</span><span class="token punctuation">,</span>
+      serviceWorker<span class="token punctuation">:</span> <span class="token keyword">null</span> <span class="token comment">// disable service workers</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</pre><h3 class="mume-header" id="prepare-to-publish-to-npm">Prepare to publish to NPM</h3>
+
+<p>We need to build our component collection into a distribution. To do this, run the following command in a terminal.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> run build
+</pre><p>This will generate minified javascript in <code>./dist</code> that will ultimately be deployed. The output of the build should look something like the following.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token operator">&gt;</span> task-list-stencil-demo@0.0.1 build /mnt/c/Users/dmorton/Documents/PD/stencil/task-list-stencil-demo
+<span class="token operator">&gt;</span> stencil build --docs
+
+<span class="token punctuation">[</span>03:11.7<span class="token punctuation">]</span>  @stencil/core v1.4.0 &#x1F4A5;
+<span class="token punctuation">[</span>03:14.9<span class="token punctuation">]</span>  build, task-list-stencil-demo, prod mode, started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:15.0<span class="token punctuation">]</span>  transpile started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:16.8<span class="token punctuation">]</span>  transpile finished <span class="token keyword">in</span> 1.81 s
+<span class="token punctuation">[</span>03:16.8<span class="token punctuation">]</span>  <span class="token function">type</span> checking started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:16.8<span class="token punctuation">]</span>  copy started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:16.8<span class="token punctuation">]</span>  generate styles started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:16.8<span class="token punctuation">]</span>  bundling components started <span class="token punctuation">..</span>.
+<span class="token punctuation">[</span>03:16.9<span class="token punctuation">]</span>  copy finished <span class="token punctuation">(</span>0 files<span class="token punctuation">)</span> <span class="token keyword">in</span> 106 ms
+<span class="token punctuation">[</span>03:17.1<span class="token punctuation">]</span>  generate styles finished <span class="token keyword">in</span> 309 ms
+<span class="token punctuation">[</span>03:17.2<span class="token punctuation">]</span>  created readme docs: my-bulletin-add
+<span class="token punctuation">[</span>03:17.2<span class="token punctuation">]</span>  created readme docs: my-bulletin-item
+<span class="token punctuation">[</span>03:19.6<span class="token punctuation">]</span>  bundling components finished <span class="token keyword">in</span> 2.79 s
+<span class="token punctuation">[</span>03:20.4<span class="token punctuation">]</span>  <span class="token function">type</span> checking finished <span class="token keyword">in</span> 3.57 s
+<span class="token punctuation">[</span>03:20.6<span class="token punctuation">]</span>  build finished <span class="token keyword">in</span> 5.64 s
+</pre><h3 class="mume-header" id="publish-to-npm">Publish to NPM</h3>
+
+<p>Run the following command in a terminal.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> publish
+</pre><p>Congratulations! You have just published your Stencil components to NPM and they are ready to be used in an Angular application.</p>
+<hr>
+<h3 class="mume-header" id="creating-our-angular-application">Creating our Angular Application</h3>
+
+<p>Outside of your stencil project, create a new angular project called <code>stencil-demo</code> using the following command.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">ng new stencil-demo
+</pre><p>Switch into the Angular project&apos;s directory</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">cd</span> stencil-demo
+</pre><p>Run a preliminary install to get everything to compile</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> <span class="token function">install</span>
+</pre><p>Ensure the application runs with the following command</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">ng serve
+</pre><h3 class="mume-header" id="configuring-our-project-to-use-stencil">Configuring our project to use Stencil</h3>
+
+<h4 class="mume-header" id="install-the-components-with-npm">Install the components with npm</h4>
+
+<p>We need to use NPM to install the package we just created and published. Remember that <strong>your package name will be different than mine, based on what you named your stencil project</strong>. In my case, the command would look like the following.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> --save my-bulletin-components
+</pre><h4 class="mume-header" id="add-custom_elements_schema-to-appmodulets">Add CUSTOM_ELEMENTS_SCHEMA to app.module.ts</h4>
+
+<p>Add the CUSTOM_ELEMENT_SCHEMA schema to your app module. app.module.ts should look like the following.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> BrowserModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@angular/platform-browser&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> NgModule<span class="token punctuation">,</span> <span class="token constant">CUSTOM_ELEMENTS_SCHEMA</span> <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@angular/core&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AppRoutingModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;./app-routing.module&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AppComponent <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;./app.component&apos;</span><span class="token punctuation">;</span>
+
+@<span class="token function">NgModule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  declarations<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    AppComponent
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  imports<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    BrowserModule<span class="token punctuation">,</span>
+    AppRoutingModule
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  providers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  bootstrap<span class="token punctuation">:</span> <span class="token punctuation">[</span>AppComponent<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  schemas<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token constant">CUSTOM_ELEMENTS_SCHEMA</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppModule</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
+</pre><h4 class="mume-header" id="call-definecustomelements-in-maints">Call defineCustomElements() in main.ts</h4>
+
+<p>A component collection built with stencil has a main function to load components from the collection. In main.ts, import defineCustomElements from your distro and call it as shown in the following snippet. <strong>Remember your package name will be different if you are following along</strong>.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> enableProdMode <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@angular/core&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> platformBrowserDynamic <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@angular/platform-browser-dynamic&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AppModule <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;./app/app.module&apos;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> environment <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;./environments/environment&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> defineCustomElements <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;my-bulletin-components/loader&apos;</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>environment<span class="token punctuation">.</span>production<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">enableProdMode</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">platformBrowserDynamic</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">bootstrapModule</span><span class="token punctuation">(</span>AppModule<span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token keyword">catch</span><span class="token punctuation">(</span><span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">defineCustomElements</span><span class="token punctuation">(</span>window<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+</pre><p>At this point, we are all ready to start using our Stencil components within our Angular application.</p>
+<h3 class="mume-header" id="using-our-stencil-component-in-angular">Using our Stencil Component in Angular</h3>
+
+<h4 class="mume-header" id="my-bulletin-add-component-1">My-Bulletin-Add component</h4>
+
+<p>We can now add the my-bulletin-add component to our angular application. Modify your app.component.html to look like the following.</p>
+<pre data-role="codeBlock" data-info="html" class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>main-app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-add</span> <span class="token attr-name">place-holder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Enter an item here<span class="token punctuation">&quot;</span></span>
+   <span class="token attr-name">font-size</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>12<span class="token punctuation">&quot;</span></span>
+   <span class="token attr-name">(phraseEntered)</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>phraseEntered($event)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-add</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</pre><p>Define phraseEntered in app.component.ts. This captures the custom DOM event sent from <code>my-bulletin-add</code> and handles the data that was passed with it.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token function">phraseEntered</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">:</span> CustomEvent</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>detail<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><h5 class="mume-header" id="handling-phraseentered">Handling phraseEntered</h5>
+
+<p>We want to store each of the phrases that are entered into the my-bulletin-add component. To do this, create a variable in app.component.ts called &apos;bulletins&apos; that is an empty string array.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript">bulletins<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</pre><p>In phraseEntered(), instead of logging out to the console, add the string to the bulletins array.</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token function">phraseEntered</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">:</span> CustomEvent</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>bulletins<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>detail<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</pre><h4 class="mume-header" id="my-bulletin-item-components">My-Bulletin-Item components</h4>
+
+<p>Now, we want to loop through each item entered through <code>phraseEntered</code> and create a my-bulletin-item for each. To do this, add the following to app.component.html</p>
+<pre data-role="codeBlock" data-info="html" class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">*ngFor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>let s of bulletins<span class="token punctuation">&quot;</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value"><span class="token property">margin-bottom</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token unit">px</span><span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-item</span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>{{s}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-item</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</pre><p>Overall, your app.component.ts should look like ...</p>
+<pre data-role="codeBlock" data-info="typescript" class="language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;@angular/core&apos;</span><span class="token punctuation">;</span>
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token punctuation">:</span> <span class="token string">&apos;app-root&apos;</span><span class="token punctuation">,</span>
+  templateUrl<span class="token punctuation">:</span> <span class="token string">&apos;./app.component.html&apos;</span><span class="token punctuation">,</span>
+  styleUrls<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&apos;./app.component.css&apos;</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">AppComponent</span> <span class="token punctuation">{</span>
+  title <span class="token operator">=</span> <span class="token string">&apos;stencil-demo&apos;</span><span class="token punctuation">;</span>
+  bulletins<span class="token punctuation">:</span> <span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+  <span class="token function">phraseEntered</span><span class="token punctuation">(</span><span class="token parameter">event<span class="token punctuation">:</span> CustomEvent</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>bulletins<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>event<span class="token punctuation">.</span>detail<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>bulletins<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</pre><p>and your app.component.html should look like ...</p>
+<pre data-role="codeBlock" data-info="html" class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>main-app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-add</span> <span class="token attr-name">place-holder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Enter an item here<span class="token punctuation">&quot;</span></span>
+   <span class="token attr-name">font-size</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>12<span class="token punctuation">&quot;</span></span>
+   <span class="token attr-name">(phraseEntered)</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>phraseEntered($event)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-add</span><span class="token punctuation">&gt;</span></span>
+
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">*ngFor</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>let s of bulletins<span class="token punctuation">&quot;</span></span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value"><span class="token property">margin-bottom</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token unit">px</span><span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>my-bulletin-item</span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>{{s}}<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>my-bulletin-item</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</pre><h3 class="mume-header" id="congrats">Congrats!!</h3>
+
+<p>You have successfully integrated stencil components into an Angular application.<br>
+<img src="final.png" alt="alt text" title="Logo Title Text 1"></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
